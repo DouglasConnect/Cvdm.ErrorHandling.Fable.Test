@@ -1,9 +1,10 @@
 STORAGE: NONE
 RESTRICTION: == netstandard2.0
 NUGET
-  remote: https://www.nuget.org/api/v2
-    Cvdm.ErrorHandling (0.5.1)
+  remote: paket-files/github.com/DouglasConnect/Cvdm.ErrorHandling/nuget
+    Cvdm.ErrorHandling (0.5.2)
       FSharp.Core (>= 4.1.18)
+  remote: https://www.nuget.org/api/v2
     dotnet-fable (1.3.17) - clitool: true
     Fable.Core (1.3.17)
       FSharp.Core (>= 4.2.3)
