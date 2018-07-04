@@ -1,0 +1,20 @@
+STORAGE: NONE
+RESTRICTION: == netstandard2.0
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Cvdm.ErrorHandling (0.5.1)
+      FSharp.Core (>= 4.1.18)
+    dotnet-fable (1.3.17) - clitool: true
+    Fable.Core (1.3.17)
+      FSharp.Core (>= 4.2.3)
+      NETStandard.Library (>= 1.6.1)
+    Fable.Import.Browser (1.1.2)
+      Fable.Core (>= 1.3.8)
+    FSharp.Core (4.5)
+    Microsoft.NETCore.Platforms (2.1)
+    NETStandard.Library (2.0.3)
+      Microsoft.NETCore.Platforms (>= 1.1)
+GIT
+  remote: https://github.com/DouglasConnect/Cvdm.ErrorHandling.git
+     (e3d795c671387c48b419bf64bb41c48060cc96d1)
+      path: /nuget/

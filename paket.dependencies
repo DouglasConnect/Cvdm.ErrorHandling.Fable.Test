@@ -1,0 +1,10 @@
+source https://nuget.org/api/v2
+storage:none
+
+clitool dotnet-fable
+nuget Fable.Core
+nuget Fable.Import.Browser
+
+git https://github.com/DouglasConnect/Cvdm.ErrorHandling.git fable-deploy-test Packages: /nuget/
+framework: netstandard2.0
+nuget Cvdm.ErrorHandling 0.5.1
